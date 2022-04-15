@@ -36,7 +36,7 @@
 				&kp C_PREV &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &trans &trans &trans &trans &trans &trans &kp END &kp PG_DN  &kp C_NEXT &kp PG_UP &bl BL_INC
 				&trans &bt BT_NXT  &trans              &trans                            &trans   &trans   &trans &kp HOME &kp PG_DN &kp END
 			>;
-			sensor-bindings = <&inc_dec_kp LC(Z) LC(Y) &inc_dec_kp LEFT RIGHT &inc_dec_kp UP DN>;
+			sensor-bindings = <&inc_dec_kp LC(Z) LC(Y) &inc_dec_kp LEFT RIGHT &inc_dec_kp UP DOWN>;
 		};
 	};
 };
