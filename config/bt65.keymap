@@ -31,9 +31,9 @@
 		raise {
 			bindings = <
 				&kp ESC &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp  F8   &kp  F9   &kp F10  &kp F11 &kp F12 &bl BL_TOG &rgb_ug RGB_TOG
-				&trans &trans &kp UP &trans &bootloader &trans &trans &trans &kp INS &trans &kp PSCRN &kp SLCK &kp PAUSE_BREAK  &rgb_ug RGB_HUI
-				&trans    &kp LEFT &kp DOWN &kp RIGHT &trans &trans &trans &trans &trans &trans &kp HOME  &kp PG_UP &reset  &bootloader &rgb_ug RGB_HUD
-				&kp C_PREV &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &trans &trans &trans &trans &trans &trans &kp END &kp PG_DN  &kp C_NEXT &kp PG_UP &bl BL_INC
+				&trans &trans &trans &trans &bootloader &trans &trans &trans &kp INS &trans &kp PSCRN &kp SLCK &kp PAUSE_BREAK  &rgb_ug RGB_HUI
+				&trans &bt SEL 0 &bt SEL 1 &bt SEL 2 &bt SEL 3 &bt SEL 4 &trans &trans &trans &trans &kp HOME  &kp PG_UP &reset  &bootloader &rgb_ug RGB_HUD
+				&trans &trans &rgb_ug RGB_TOG &rgb_ug RGB_EFF &rgb_ug RGB_HUI &rgb_ug RGB_BRI &bl BL_TOG &trans &trans &trans &kp END &kp PG_DN  &kp C_NEXT &kp PG_UP &bl BL_INC
 				&trans &bt BT_NXT  &trans              &trans                            &trans   &trans   &trans &kp HOME &kp PG_DN &kp END
 			>;
 			sensor-bindings = <&inc_dec_kp LC(Y) LC(Z)  &inc_dec_kp RIGHT LEFT &inc_dec_kp UP DOWN>;
