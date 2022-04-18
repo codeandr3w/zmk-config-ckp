@@ -30,7 +30,7 @@
 		};
 		raise {
 			bindings = <
-				&kp GRAVE &bt SEL 1 &bt SEL 2 &bt SEL 3 &bt SEL 4 &bt SEL 5 &bt SEL 6 &bt SEL 7 &bt SEL 8 &bt SEL 9 &bt BT_CLR &bt BT_PRV &bt BT_NXT &kp DEL &rgb_ug RGB_TOG
+				&kp GRAVE &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5 &bt BT_SEL 6 &bt BT_SEL 7 &bt BT_SEL 8 &bt BT_SEL 9 &bt BT_CLR &bt BT_PRV &bt BT_NXT &kp DEL &rgb_ug RGB_TOG
 				&trans &trans &trans &trans &bootloader &trans &trans &trans &kp INS &trans &kp PSCRN &kp SLCK &kp PAUSE_BREAK  &rgb_ug RGB_HUI
 				&trans &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5 &trans &trans &trans &trans  &trans &trans  &trans &rgb_ug RGB_HUD
 				&trans &trans &rgb_ug RGB_TOG &rgb_ug RGB_EFF &rgb_ug RGB_HUI &rgb_ug RGB_BRI &bl BL_TOG &bl BL_CYCLE &rgb_ug RGB_BRD &trans &trans &trans  &trans &kp PG_UP &trans
